@@ -1,0 +1,53 @@
+/* header style */
+.content{
+    position: absolute;
+    left: 7%;
+    width: 85%;
+    background-color: #161616;
+    border-radius: 17px;
+}
+.container{
+    display: flex;
+    width: 841px;
+    height: 430px;
+    margin-left: 50px;
+    
+}
+h1{
+    font-size: 2.6em;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.head-title{
+    margin-top: 30px;
+    width: 42%;
+    color: #FFFFFF;
+}
+.head-title a{
+    color: #FFFFFF;
+}
+.title-img{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.title-img img{
+    width: 390px;
+}
+#para{
+    font-size: small;
+    margin-top: 0%;
+    color: rgb(184, 199, 212);
+}
+.button{
+    margin-top: 30px;
+}
+.link-button{
+    padding: 6px 16px 10px;
+    border: 1px solid #DD0000;
+    background-color: #DD0000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.fa-terminal{
+    margin-left: 7px;
+}
