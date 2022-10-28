@@ -10,7 +10,6 @@
     width: 841px;
     height: 430px;
     margin-left: 50px;
-    
 }
 h1{
     font-size: 2.6em;
@@ -244,3 +243,127 @@ footer{
     text-align: center;
     margin-top: 0%;
 }
+/*---------------------------- ----------------------
+------------------------media quarey --------------------
+---------------------------------------------------------*/
+/* mobile device */
+@media screen and (max-width:767px){
+    body{
+        overflow-x: hidden;
+        overflow-x: none;
+        width: 100%;
+    }
+    .content {
+            display: block;
+            width: 350px;
+            background-color: #080707;
+            border-radius: 17px;
+        }
+        h1{
+            font-size: 1.5em;
+            width: 250px;
+            padding-top: 30px;
+        }
+        .head-title{
+            text-align: center;
+        }
+        .container{
+            display:block;
+            width:550px;
+            height: 445px;
+        }
+        .thumbnail img{
+            width: 300px;
+        }
+        .title-img img{
+            width: 183px;
+            padding-left: 20px;
+
+        }
+        .mix-box{
+            display: block;
+            margin-left: 20px;
+        }
+        .up-coming {
+            width: 200px;
+            height: 180px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            margin-left: 30px;
+        }
+        .match-section{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 300px;
+            height: 400px;
+        }
+        .match{
+            width: 300px;
+            height: 300px;
+        }
+        footer{
+            visibility: hidden;
+        }
+    }
+        /* ipad device */
+        @media  screen and (min-width:768px)and (max-width:1023px) {
+            body{
+                width: 100%;
+                overflow-x: none;
+                overflow-x: hidden;
+            }
+            .content{
+                width: 540px;
+                margin-left: 10px;
+            }
+            .container{
+                width: 480px;
+                height: 300px;
+                padding-right: 30px;
+            }
+            .up-coming{
+                background-color: #FFFFFF;
+            }
+            .mix-box{
+                display: block;
+            }
+            .coming-box{
+                display:flex;
+                font-weight: 700;
+                font-size: 2em;
+            }
+            .match-section{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-column-gap: 40px;
+            }
+            .all-content{
+                visibility: visible;
+                text-align: center;
+            }
+            .blog{
+                padding-top: 20px;
+                margin-left: 20px;
+            }
+            h1{
+                font-size: 1.2em;
+            }
+            .head-title{
+                width: 500px;
+            }
+            .title-img img{
+                width: 265px;
+            }
+            footer{
+               
+             width: 600px;
+            }
+            .view-all{
+                text-align: start;
+                margin-left: 250px;
+            }
+            .link-button{
+                padding: 15px;
+            }
+        }
