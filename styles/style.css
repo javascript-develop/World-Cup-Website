@@ -111,6 +111,13 @@ h1{
     display: flex;
     margin-top: -10px;
 }
+.timer-messege img{
+    width: 9%;
+    height: 7%;
+    margin-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .messege{
     padding-left: 20px;
 }
@@ -167,7 +174,73 @@ span{
 /* ---------------------------
 -----------------footer style -------------
 ------------------------------*/
+hr{
+    color: #f4e6e6;
+    width: 80%;
+}
+#fot-h{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+}
 footer{
     height: 300px;
+    width: 100%;
     background-color: #161616;
+}
+.footer-bar{
+    display: flex;
+    text-align: center;
+    margin-left: 70px;
+    padding-left: 70px;
+}
+.footer-bar a{
+    text-decoration: none;
+    color: #B9B9B9;
+}
+.bar-menu{
+    margin-left: 35px;
+    font-size: small;
+    margin-top: 50px;
+}
+
+/*----------------------------- -----------------
+-----------------upcoming match----------------
+-------------------------------- */
+.mix-match{
+    display: flex;
+}
+.vs-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.verses{
+    width: 190px;
+    height: 160px;
+    border: 1px solid rgb(206, 210, 211);
+    border-radius: 8px;
+    padding-left: 9px;
+}
+.matt{
+    display: flex;
+    margin-top: 20px;
+}
+.thumb img{
+    width: 70px;
+}
+#vss{
+    padding-left: 8px;
+    padding-right: 10px;
+}
+#germany{
+    color: #161616;
+    font-size: 1.1em;
+    text-align: center;
+}
+#time{
+    font-size: small;
+    text-align: center;
+    margin-top: 0%;
 }
